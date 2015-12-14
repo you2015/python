@@ -80,7 +80,7 @@ def switch(user_input):
 # 正規化檢查
 def check_input(user_input):
 	m = re.match(r'[0-5]{1}$',user_input)
-	print(m)
+	#print(m)
 	if (m == None ):
 		print("\n請輸入0~5的數字\n")
 		return False
